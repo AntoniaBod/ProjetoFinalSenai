@@ -1,0 +1,28 @@
+:root{
+    --azul: #0c2e3c;
+    --verde: #3e951a;
+    --rosa: #F7B6D2;
+    --laranja: #f8bb05;
+    --preto: #424242;
+    --branco: #FFFFFF;
+}
+
+header,footer{
+    background-color: var(--azul);
+    color: #FFFFFF;
+}
+
+#imgLogo{
+    width: 10%;
+}
+
+.nav-link, nav a{
+    color: var(--branco)!important;
+}
+#bannerPrimeiro{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/logo.png);
+    background-size: cover;
+   
+}
