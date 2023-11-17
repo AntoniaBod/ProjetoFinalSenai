@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="shortcut icon" href="images/logo/logoDark.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="../images/logo4 1.svg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../styles/geral.css">
+    
 </head>
 <body>
   <div id="page">
@@ -16,13 +17,16 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarNav">
+          <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="navbar-brand" href="#"><img id="imgLogo" src="../images/logo4.png" alt=""></a>
               </li>
+            </ul>
+            <ul class="navbar-nav">
+             
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="..">Home</a>
+                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../pages/sobrenos.html">Sobre nós</a>
@@ -40,70 +44,42 @@
                 <a class="nav-link" href="../pages/esqueceu.html">Esqueci a Senha</a>
               </li>
             </ul>
-            <ul class="navbar-nav">
-              <li>
-                <div class="form-check form-switch">
-                  <input class="form-check-input" type="checkbox" role="switch" id="botaoTema">
-                  <label class="form-check-label" for="botaoTema">Tema : <span id="temaAtual">Claro</span></label>
-                </div>
-              </li>
-            </ul>
+                        
           </div>
         </div>
       </nav>
     </header>
     <main>
-      <section id="catalogoSection" class="container-fluid text-center mx-0 my-2 p-0">
-        <h3 class="my-3" style="color: var(--laranja);">CATÁLOGO DE PRODUTOS</h3>
-        <div id="produtosGrupo" class="d-flex justify-content-center gap-4 flex-wrap container-fluid my-2 p-0">
-            <!-- COLEIRA -->
-            <div class="card">
-                <img src="../images/hambuguer2.jpg" class="card-img-top" alt="um cachorro usando coleira">
+      <section id="catalogoSection" class="container-fluid text-center mx-0 my-0 p-0">
+        <h2 class="container-fluid m-2"  style="color: var(--laranja);">CATÁLOGO DE PRODUTOS</h2>
+        <div id="produtosGrupo" class="d-flex justify-content-center gap-4 flex-wrap container-fluid my-4 p-0">
+           
+            <div class="card d-flex justify-content-around">
+                <img src="../images/doce.jpg" class="card-img-top" alt="">
                 <div class="card-body">
-                  <h3 class="card-title" style="color: var(--laranja);">COLEIRA</h3>
-                  <p class="card-text">A coleira é o acessório essencial para manter o seu companheiro de quatro patas seguro e com estilo. Feita com materiais de alta qualidade, nossa coleira é resistente e confortável para o seu cão. Com diversos designs e cores disponíveis, você pode encontrar a coleira perfeita que combina com a personalidade do seu peludo amigo. Além de proporcionar segurança durante os passeios, a coleira é uma expressão do amor e cuidado que você tem pelo seu cão.</p>
+                  
+                  <h3 class="card-title" style="color: var(--branco);">PÃO DE DOCE</h3>
+                  <p class="card-text">A nossa bisnaga que já rodou muitos estados, você come ele até sem manteiga.</p>
                   <h4 style="color: var(--verde);">R$100</h4>
-                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#coleiraModal">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="doceModal">
                     VER MAIS
                   </button>                          
                 </div>
             </div>
-            <!-- COMIDA -->
-            <div class="card" style="width: 10rem;">
-                <img src="../images/hamburguer.jpg" class="card-img-top" alt="ração para cachorro">
+           
+            <div class="card  d-flex justify-content-around">
                 <div class="card-body">
-                  <h3 class="card-title" style="color: var(--branco);">COMIDA</h3>
-                  <p class="card-text">Ofereça ao seu cão a nutrição de que ele precisa com a nossa seleção de alimentos premium. Nossas opções de comida são formuladas com ingredientes de alta qualidade, proporcionando uma dieta equilibrada e saborosa. Temos uma variedade de rações secas, úmidas e até mesmo opções naturais e orgânicas para atender às necessidades alimentares do seu pet. Cuide da saúde do seu cão com o melhor em nutrição, garantindo que ele se sinta energizado e feliz todos os dias.</p>
+                <img src="../images/hamburguer1.jpg" class="card-img-top" alt="">
+
+                  <h3 class="card-title" style="color: var(--branco);">PÃO HAMBURGUER</h3>
+                  <p class="card-text">O melhor pão de hamburguer, além de delicioso não esfarela.</p>
                   <h4 style="color: var(--verde);">R$100</h4>
-                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#comidaModal">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#hamburguerModal">
                     VER MAIS
                   </button>                          
                 </div>
             </div>
-            <!-- DISCO -->
-            <div class="card" style="width: 10rem;">
-                <img src="../images/hamburguer1.jpg" class="card-img-top" alt="disco de brinquedo para cachorro">
-                <div class="card-body">
-                  <h3 class="card-title" style="color: var(--branco);">DISCO DE BRINQUEDO</h3>
-                  <p class="card-text">Mantenha seu cão entretido e ativo com nosso disco de brinquedo, projetado para horas de diversão ao ar livre. Feito de materiais seguros e duráveis, o disco é perfeito para jogos de busca e interação com o seu cão. Seu design aerodinâmico permite lançamentos precisos, proporcionando ao seu peludo momentos de alegria e exercício. Leve-o para o parque ou o quintal e desfrute de momentos emocionantes e saudáveis com seu cão, fortalecendo ainda mais a conexão entre vocês.</p>
-                  <h4 style="color: var(--verde);">R$100</h4>
-                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#discoModal">
-                    VER MAIS
-                  </button>                          
-                </div>
-            </div>
-            <!-- CASINHA -->
-            <div class="card" style="width: 10rem;">
-                <img src="../images/hamburguer3.jpg" class="card-img-top" alt="casinha para cachorro">
-                <div class="card-body">
-                  <h3 class="card-title" style="color: var(--branco);">CASINHA</h3>
-                  <p class="card-text">Nossa casinha para cães é um verdadeiro lar dentro de casa. Feita com materiais duráveis e resistentes às intempéries, ela oferece um refúgio seguro e aconchegante para o seu pet. Com um design espaçoso e confortável, a casinha é o local perfeito para seu cão descansar, se abrigar do sol ou da chuva, e relaxar com todo o conforto que merece. Garanta que seu melhor amigo tenha um lugar aconchegante para chamar de seu com a nossa casinha de qualidade.</p>
-                  <h4 style="color: var(--verde);">R$100</h4>
-                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#casinhaModal">
-                    VER MAIS
-                  </button>                          
-                </div>
-            </div>
+           
 
         </div>
     </section>
@@ -111,17 +87,17 @@
     <footer class="text-center py-3">
         <h4>Todos os direitos reservados a @AntoniaBod - 2023</h4>
 </footer>
-<!-- Coleira Modal -->
-<div class="modal fade" id="coleiraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+<div class="modal fade" id="doceModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">COLEIRA</h1>
+        <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">PÃO DE DOCE</h1>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        <img class="w-100" src="images/products/productImage.png" alt="">
-        <h3 style="color: var(--verde);">R$100</h3>
+        <img class="w-100" src="../images/doce.jpg" alt="">
+        <h3 style="color: var(--verde);">R$24,00</h3>
         <label for="quantidade">Quantidade do produto:</label>
         <input type="number" name="" id="quantidade">
       </div>
@@ -132,17 +108,17 @@
     </div>
   </div>
   </div>
-  <!-- Coleira Modal -->
-  <div class="modal fade" id="coleiraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ 
+  <div class="modal fade" id="hamburguerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">COLEIRA</h1>
+          <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">PÃO HAMBURGUER</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <img class="w-100" src="images/products/productImage.png" alt="">
-          <h3 style="color: var(--verde);">R$100</h3>
+          <img class="w-100" src="../images/hamburguer1.jpg" alt="">
+          <h3 style="color: var(--verde);">R$18,00</h3>
           <label for="quantidade">Quantidade do produto:</label>
           <input type="number" name="" id="quantidade">
         </div>
@@ -152,49 +128,10 @@
         </div>
       </div>
     </div>
-    </div><!-- Coleira Modal -->
-    <div class="modal fade" id="coleiraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">COLEIRA</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <img class="w-100" src="images/products/productImage.png" alt="">
-          <h3 style="color: var(--verde);">R$100</h3>
-          <label for="quantidade">Quantidade do produto:</label>
-          <input type="number" name="" id="quantidade">
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-          <button type="button" class="btn btn-success">Adicionar no carrinho</button>
-        </div>
-      </div>
-    </div>
-    </div><!-- Coleira Modal -->
-    <div class="modal fade" id="coleiraModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" style="color: var(--laranja);" id="exampleModalLabel">COLEIRA</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <img class="w-100" src="images/products/productImage.png" alt="">
-          <h3 style="color: var(--verde);">R$100</h3>
-          <label for="quantidade">Quantidade do produto:</label>
-          <input type="number" name="" id="quantidade">
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-          <button type="button" class="btn btn-success">Adicionar no carrinho</button>
-        </div>
-      </div>
-    </div>
-    </div>
+  
+    
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <script src="js/script.js"></script> 
 </body>
 </html>
