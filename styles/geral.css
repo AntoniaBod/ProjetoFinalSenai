@@ -6,12 +6,18 @@
     --laranjaClaro: #f2861b;
     --amarelo: #c7c730;
     --branco: #ffffff;
+    --azul2: #6EB3D0;
+    --verde: #3e951a;
+    --rosa: #F7B6D2;
+    --laranja2: #F4A623;
+    --preto: #424242;
+ 
 }
 
 header,footer{
     background-color: var(--azul);
     color: #FFFFFF;
-    height: 80px;
+    height: 70px;
 }
 
 #imgLogo{
@@ -34,21 +40,29 @@ header,footer{
     background-color: var(--laranjaTransparente);
 }
 
-main{
-    width: 100%;
-    height: 775px;
-    display: flex;
-    align-items: center;
+body{
     background-color: var(--laranjaClaro);
 
 }
 
+footer{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
 #sectionLogin{
-    width: 50%;
-    height: 380px;
+    width: 450px;
+    height: 700px;
     border: 2pt solid black;
-    background-color: var(--branco);
-    
+    background-color: var(--branco);    
 }
 
 .carousel-item{
@@ -60,9 +74,7 @@ main{
 }
 
 .card{
-    width: 200px;
-    height: 50px;
-    padding: 1rem;
+    width: 300px;
     border: var(--preto) 2px solid;
 }
 
@@ -79,4 +91,7 @@ main{
 .card button:active{
     background-color: var(--branco)!important;
     color: var(--rosa)!important;
+}
+#catalogoSection{
+    height: 80%;
 }
