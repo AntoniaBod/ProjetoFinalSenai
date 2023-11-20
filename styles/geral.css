@@ -10,40 +10,26 @@
     --verde: #3e951a;
     --rosa: #F7B6D2;
     --laranja2: #F4A623;
-    --preto: #424242;
- 
+    --preto: #424242; 
 }
 
-header,footer{
+header, footer{
     background-color: var(--azul);
     color: #FFFFFF;
-    height: 70px;
-}
+    height: 50px;}
 
 #imgLogo{
-    width: 15%;        
-}
+    width: 10%;}
 
-.nav-link, nav a{
+.nav-link, .nav-item, nav a{
     color: var(--branco)!important;
 }
-#bannerPrimeiroMetodo{
-    height: 775px;
+#bannerPrimeiroMetodo{   
+    height: 390px;
     background-image: url(../images/banner.png);
     background-size: cover;
-    background-repeat: no-repeat;
-}
+    background-repeat: no-repeat;}
 
-#mensagemBanner{
-    width: 500px;
-    padding: 2rem;
-    background-color: var(--laranjaTransparente);
-}
-
-body{
-    background-color: var(--laranjaClaro);
-
-}
 
 footer{
     position: absolute;
@@ -53,20 +39,21 @@ footer{
 
 main{
     width: 100%;
-    display: flex;
-    align-items: center;
-
 }
 
 #sectionLogin{
-    width: 450px;
-    height: 700px;
-    border: 2pt solid black;
+    width: 90vh;
+    height: 320px;
     background-color: var(--branco);    
 }
 
-.carousel-item{
-    height: 775px;
+#tituloLogin{
+    font-size: 12pt;
+}
+
+
+.cardbody{
+    height: 70px;
 }
 
 .card, .card img{
@@ -74,12 +61,12 @@ main{
 }
 
 .card{
-    width: 300px;
+    padding: 1rem;
     border: var(--preto) 2px solid;
 }
 
 .card button{
-    background-color: var(--rosa);
+    background-color: var(--azul2);
     color: var(--preto);
     border: none;
     border-radius: 0%;
@@ -92,6 +79,8 @@ main{
     background-color: var(--branco)!important;
     color: var(--rosa)!important;
 }
+
 #catalogoSection{
-    height: 80%;
+    height: 50%;
 }
+

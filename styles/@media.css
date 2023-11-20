@@ -1,9 +1,23 @@
-#menuIcon{
-    display: block;
+#menuMobile{
+    width: 100%;
+    padding: 20px;
+    background-color: #2A2B2A;
+    flex-direction: column;
+    transform: 0.5s;
 }
-#menuPc{
-    display: none;
-}
-.post{
+#menuMobile ul{
     width: 90%;
+    flex-direction: column;
+    align-items: center;
 }
+
+#menuMobile li{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menuMobile li:hover{
+    background-color: #454645;
+    transition: 0.5}
