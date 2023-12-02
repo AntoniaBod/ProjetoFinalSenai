@@ -24,9 +24,10 @@ header, footer{
 .nav-link, .nav-item, nav a{
     color: var(--branco)!important;
 }
-#bannerPrimeiroMetodo{   
-    height: 390px;
-    background-image: url(../images/banner.png);
+#bannerPrimeiroMetodo{ 
+    width: 100%;
+    height: 750px; 
+    background-image: url(../images/logo4.png);
     background-size: cover;
     background-repeat: no-repeat;}
 
@@ -38,22 +39,18 @@ footer{
 }
 
 main{
-    width: 100%;
+    width: 100%;   
 }
 
 #sectionLogin{
     width: 90vh;
-    height: 320px;
+    height: 600px;
     background-color: var(--branco);    
 }
 
 #tituloLogin{
-    font-size: 12pt;
-}
-
-
-.cardbody{
-    height: 70px;
+    font-size: 20pt;
+    color: var(--azul2);
 }
 
 .card, .card img{
@@ -83,4 +80,19 @@ main{
 #catalogoSection{
     height: 50%;
 }
-
+@media screen and (min-width: 400px) {
+    main{    
+        margin: 230px 0%;
+        position: absolute;
+    } 
+    #imgLogo{
+        display: none!important;
+    }
+    
+}
+@media screen and (min-width: 700px){
+    main{
+        margin: 32px 0%;
+        height: 500px;
+    }
+}    
